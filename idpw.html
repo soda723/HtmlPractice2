@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>실습 : 아이디 비밀번호</h3>
+
+    <label for="userid_input">아이디:</label>
+    <input
+        id = "userid_input"
+        type="text"
+        name="userid"
+        placeholder="아이디를 입력하세요"
+    />
+    <label for="userpw_input">비밀번호:</label>
+    <input
+        id = "userpw_input"
+        type="password"
+        name="userpw"
+        placeholder="비밀번호를 입력하세요"
+    />
+    <br/>
+
+    <label for="opselect">비밀번호질문</label>
+    <select id = "opselect">
+        <option value="색깔">좋아하는 색깔?</option>
+        <option value="음식">좋아하는 음식?</option>
+        <option value="책이름">좋아하는 책이름?</option>
+    </select>
+    
+    <textarea name="contect", rows="1">질문답입력</textarea>
+    <br/>
+    <br/>
+    <form action="임의의url", method="POST">
+        <textarea name="intro_Input" cols="60" rows="5">자기소개를 입력하세요</textarea>
+    </form>
+
+    <button name="제출" type="submit">제출하기</button>
+</body>
+</html>
