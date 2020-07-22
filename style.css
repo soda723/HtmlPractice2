@@ -1,0 +1,15 @@
+*{
+    background-color: beige;
+}
+.sq{
+    background-color: white;
+}
+#intro{
+    background-color: yellowgreen;
+    color:white;
+    border: dashed white 4px;
+
+}
+.oo{
+    color:violet;
+}
