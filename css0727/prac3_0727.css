@@ -1,0 +1,38 @@
+.container{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container2{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container3{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 240px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin-right: 3px;
+    background-color:coral;
+    border-radius: 5px;
+}
